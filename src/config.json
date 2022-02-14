@@ -1,0 +1,15 @@
+{
+    "is_only_get_point_cloud": true,
+    "point_cloud": [
+        {
+            "point_cloud_name": "pointcloud1",
+            "star_address": 400,
+            "end_address": 700
+        },
+        {
+            "point_cloud_name": "pointcloud2",
+            "star_address": 1400,
+            "end_address": 1700
+        }
+    ]
+}
