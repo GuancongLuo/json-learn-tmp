@@ -1,15 +1,25 @@
 {
     "is_only_get_point_cloud": true,
-    "point_cloud": [
-        {
+    "Dataset_dir_abs_path":"/home/Document/Dataset",
+    "pointcloud1":{
             "point_cloud_name": "pointcloud1",
+            "file_name":"/ForwardCar",
             "star_address": 400,
             "end_address": 700
-        },
-        {
-            "point_cloud_name": "pointcloud2",
-            "star_address": 1400,
-            "end_address": 1700
-        }
-    ]
+    },
+
+    "pointcloud2":{
+        "point_cloud_name": "pointcloud2",
+        "file_name":"/ForwardCar",
+        "star_address": 400,
+        "end_address": 700
+    },
+
+    "camera":{
+        "fx": 532.74,
+        "fy": 532.74,
+        "cx": 640,
+        "cy": 380
+    }
+
 }
